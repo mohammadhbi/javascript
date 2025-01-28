@@ -5,9 +5,7 @@ function is12hour(hour){
         console.log( hour)
     }else if(hour >13 && hour<24){
         console.log((hour-12 ))
-    }else{
-        console.log("edit your input")
     }
 }
-console.log(is12hour(0))
+console.log(is12hour(12))
 
