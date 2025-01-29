@@ -1,20 +1,18 @@
 function isprime(number){
-    let result=true;
 if (number < 2){
-    result=false
+    console.log(number + "is not prime")
 }else{
     let i=2 ;
     while(i<= Math.sqrt(number)){
         if( number % i === 0){
-            result=false
-        } i++;
+            
         
-    }
-    if (result = true){
-        console.log(number + "is prime")
+        
+    
+        console.log(number + "is not prime")
     }else{
-        console.log(number +"is not prime")
+        console.log(number +"is  prime")
     }
 }
 }
-console.log( isprime(14))
+} console.log(isprime(14))

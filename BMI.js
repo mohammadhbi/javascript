@@ -10,4 +10,4 @@ function bmi(weight,height){
     }
 }
 }
-console.log(bmi(79.5,183))
+console.log(bmi(120,183))
